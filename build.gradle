@@ -33,13 +33,13 @@ repositories {
 apply plugin: 'com.android.library'
 
 ext {
-    supportLibVersion = '25.0.0'
+    supportLibVersion = '25.1.0'
     versionName = '2.9.1'
 }
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    buildToolsVersion "25.0.2"
     publishNonDefault true
 
     defaultConfig {
